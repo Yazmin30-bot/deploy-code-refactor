@@ -1,31 +1,57 @@
+/* The page size includes borders and padding.
+In this case defines that there is no margin or padding.*/
 * {
-    box-sizing: border-box;
+    box-sizing: border-box; 
     padding: 0;
     margin: 0;
 }
 
+
+/* It sets the background color to body*/
 body {
     background-color: #d9dcd6;
 }
+
+
 /*Change the class to element */
+/*For the header element applies these styles:
+  -The space between its content and its border is 20px
+  -Can take these kind of fonts :'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif 
+  -Sets the background color
+  -Sets the text-color */ 
 header {
     padding: 20px;
     font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
     background-color: #2a607c;
     color: #ffffff;
 }
+
+
 /*Change the class to element */
+/*For h1 elements inside header element apply these styles:
+ Don't add a line-break after the nav bar 
+ The font size is 48px*/
 header h1 {
     display: inline-block;
     font-size: 48px;
 }
+
+
 /*Change the class to element removing the point (.) */
+/*For h1 elements inside header element and class = seo apply this color text*/
 header h1 .seo {
     color: #d9dcd6;
 }
 
+
 /*Change the class to element removing the point (.) */
 /*Change div by nav*/
+/*For nav elements inside header element apply these styles:
+-Set the top padding for a nav bar to 15 pixels
+-Set 20px the right margin to the nav bar
+-The nav bar floats the right 
+-Can take these kind of fonts :'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif
+-The font size is 48px*/
 header nav {
     padding-top: 15px;
     margin-right: 20px;
@@ -34,55 +60,87 @@ header nav {
     font-size: 20px;
 }
 
+
 /*Change the class to element removing the point (.) */
 /*Change div by nav*/
+/*For unordered list  inside header element dont add list-item marker*/
 header nav ul {
     list-style-type: none;
 }
 
+
 /*Change the class to element removing the point (.) */
 /*Change div by nav*/
+/*For list items inside header element apply these styles: 
+-Don't add a line-break after the next item  
+-The items float the left*/
 header nav ul li {
     display: inline-block;
     margin-left: 25px;
 }
 
+
+/*Set the text color of link and don't add decoration to text */
 a {
     color: #ffffff;
     text-decoration: none;
 }
 
+
+/*The font-size of each paragraph is 16px*/
 p {
     font-size: 16px;
 }
 
-.hero {
+
+/*Change the class = hero to element = figure */
+/*Add a back-ground image with height of 800 px, width of 100%,
+ using the image that is inside the images folder, Resize the background image 
+ to cover the entire container with position in the center*/
+figure {
     height: 800px;
     width: 100%;
     margin-bottom: 25px;
     background-image: url("../images/digital-marketing-meeting.jpg");
     background-size: cover;
-    background-position: center;
-    
+    background-position: center; 
 }
 
+
+/*Change the class = content to element = main */
+/*For the main element applies these styles:
+  -Use 75% of the containing block
+  -Don't add a line-break after the sidebar (<aside>)
+  -Set 20px the left margin to the main element */
+main {
+    width: 75%;
+    display:inline-block;
+    margin-left: 20px;
+} 
+
+
+/*For the images of the search-engine-optimization and social-media-marketing sections apply these styles
+-It floats the left 
+-Set 25px the left margin to the images*/
 .float-left {
     float: left;    
     margin-right: 25px;
 }
 
+
+/*For the image of the online-reputation-management section applies these styles
+-It floats the right
+-Set 25px the left margin to the image*/
 .float-right {
     float: right;
     margin-left: 25px;
 }
 
-/*Change the class = content to element = main */
-main {
-    width: 75%;
-    display: inline-block;
-    margin-left: 20px;
-}
 
+
+/*For the sidebar applies these styles:
+- Set 25px the left margin to the sidebar
+-The space between its content and its border is 20px */
 .benefits {
     margin-right: 20px;
     padding: 20px;
@@ -94,54 +152,100 @@ main {
     background-color: #2589bd;
 }
 
+
+/*For the Lead Generation section applies these styles:
+Set the bottom margin  to 32 pixels
+Set the text color*/
 .benefit-lead {
     margin-bottom: 32px;
     color: #ffffff;
 }
 
+
+/*For the Brand Awareness section applies these styles:
+Set the bottom margin  to 32 pixels
+Set the text color*/
 .benefit-brand {
     margin-bottom: 32px;
     color: #ffffff;
 }
 
+
+/*For the Cost Management section applies these styles:
+Set the bottom margin  to 32 pixels
+Set the text color*/
 .benefit-cost {
     margin-bottom: 32px;
     color: #ffffff;
 }
 
+
+/*For the title of  Lead Generation section applies these styles:
+Set the bottom margin  to 10 pixels
+Centers the text*/
 .benefit-lead h3 {
     margin-bottom: 10px;
     text-align: center;
 }
 
+
+/*For the title of  Brand Awareness section applies these styles:
+Set the bottom margin  to 10 pixels
+Centers the text*/
 .benefit-brand h3 {
     margin-bottom: 10px;
     text-align: center;
 }
 
+
+/*For the title of  Cost Management section applies these styles:
+Set the bottom margin  to 10 pixels
+Centers the text*/
 .benefit-cost h3 {
     margin-bottom: 10px;
     text-align: center;
 }
 
+
+/*For the image of  Lead Generation section applies these styles:
+-It starts on a new line, and takes up the whole width
+-The top and bottom margins are 10px and right and left margins are auto (The browser calculates it)
+-Set the maximum width to 150 pixels:*/
 .benefit-lead img {
     display: block;
     margin: 10px auto;
     max-width: 150px;
 }
 
+
+/*For the image of  Brand Awareness section applies these styles:
+-It starts on a new line, and takes up the whole width
+-The top and bottom margins are 10px and right and left margins are auto (The browser calculates it)
+-Set the maximum width to 150 pixels:*/
 .benefit-brand img {
     display: block;
     margin: 10px auto;
     max-width: 150px;
 }
 
+
+/*For the image of  Cost Management section applies these styles:
+-It starts on a new line, and takes up the whole width
+-The top and bottom margins are 10px and right and left margins are auto (The browser calculates it)
+-Set the maximum width to 150 pixels:*/
 .benefit-cost img {
     display: block;
     margin: 10px auto;
     max-width: 150px;
 }
 
+
+/*For the search-engine-optimization section applies these styles:
+-Set 20px the botton margin
+-The space between its content and its border is 50px
+-The height is 300px
+-Can take these kind of fonts: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif
+-Set the background-color and color text:*/
 .search-engine-optimization {
     margin-bottom: 20px;
     padding: 50px;
@@ -151,6 +255,13 @@ main {
     color: #ffffff;
 }
 
+
+/*For the online-reputation-management section applies these styles:
+-Set 20px the botton margin
+-The space between its content and its border is 50px
+-The height is 300px
+-Can take these kind of fonts: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif
+-Set the background-color and color text:*/
 .online-reputation-management {
     margin-bottom: 20px;
     padding: 50px;
@@ -160,6 +271,13 @@ main {
     color: #ffffff;
 }
 
+
+/*For the social-media-marketing section applies these styles:
+-Set 20px the botton margin
+-The space between its content and its border is 50px
+-The height is 300px
+-Can take these kind of fonts: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif
+-Set the background-color and color text:*/
 .social-media-marketing {
     margin-bottom: 20px;
     padding: 50px;
@@ -169,40 +287,59 @@ main {
     color: #ffffff;
 }
 
+
+/*For the image of social-media-marketing section Sets the maximum width to 200 pixels:*/
 .search-engine-optimization img {
     max-height: 200px;
 }
 
+
+/*For the image of online-reputation-management section Sets the maximum width to 200 pixels:*/
 .online-reputation-management img {
     max-height: 200px;
 }
 
+
+/*For the image of social-media-marketing section Sets the maximum width to 200 pixels:*/
 .social-media-marketing img {
     max-height: 200px;
 }
 
+
+/*For the title of social-media-marketing section Sets the bottom margin to 200 pixels and font size to 36px*/
 .search-engine-optimization h2 {
     margin-bottom: 20px;
     font-size: 36px;
 }
 
+
+/*For the title of online-reputation-management section Sets the bottom margin to 200 pixels and font size to 36px*/
 .online-reputation-management h2 {
     margin-bottom: 20px;
     font-size: 36px;
 }
 
+
+/*For the title of social-media-marketing section Sets the bottom margin to 200 pixels and font size to 36px*/
 .social-media-marketing h2 {
     margin-bottom: 20px;
     font-size: 36px;
 }
-/*Change the class to element removing the point (.) */
+/*Change the class to element removing the point (.) 
+For the footer section applies these styles:
+-The space between its content and its border is 30px
+-No floating elements allowed on either the left or the right side
+-Can take these kind of fonts: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+-Centers the text
+*/
 footer {
     padding: 30px;
     clear: both;
     font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
     text-align: center;
 }
-/*Change the class to element removing the point (.) */
+/*Change the class to element removing the point (.) 
+For the h2 the text size is 20px*/
 footer h2 {
     font-size: 20px;
 }
