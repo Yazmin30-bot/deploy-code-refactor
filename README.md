@@ -8,15 +8,18 @@ In order to my own site is optimized for search engines, I improved the codebase
 This proyect  requires no modules outside of the core.
 
 ## Installation
-1. Go to the following link [https://github.com/Yazmin30-bot/deploy-code-refactor/](https://github.com/Yazmin30-bot/deploy-code-refactor/) and clone the link 
+* Go to the following link [https://github.com/Yazmin30-bot/deploy-code-refactor/](https://github.com/Yazmin30-bot/deploy-code-refactor/) and clone the link 
 ![Git-bash commands to clone .](./assets/images/github-clone.png)
 
-2. Go to Git-bash and page the github's, with the next code
 
-`$ git clone https://github.com/Yazmin30-bot/deploy-code-refactor.git `
-
-![Git-bash commands to clone .](./assets/images/git-bash-clone.png)
+* Go to Git-bash and page the github's with the following code `$ git clone https://github.com/Yazmin30-bot/deploy-code-refactor.git ` ![Git-bash commands to clone .](./assets/images/git-bash-clone.png)
 
 
+## Links
+* The URL of the deployed application.
+[https://yazmin30-bot.github.io/deploy-code-refactor/](https://yazmin30-bot.github.io/deploy-code-refactor/)
+
+* The URL of the GitHub repository
+[https://github.com/Yazmin30-bot/deploy-code-refactor/](https://github.com/Yazmin30-bot/deploy-code-refactorr/)
 
 
