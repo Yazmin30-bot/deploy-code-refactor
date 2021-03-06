@@ -8,25 +8,15 @@ In order to my own site is optimized for search engines, I improved the codebase
 This proyect  requires no modules outside of the core.
 
 ## Installation
-Go to the following link and [https://github.com/Yazmin30-bot/deploy-code-refactor/](https://github.com/Yazmin30-bot/deploy-code-refactor/). and clone the link 
+1. Go to the following link [https://github.com/Yazmin30-bot/deploy-code-refactor/](https://github.com/Yazmin30-bot/deploy-code-refactor/) and clone the link 
+![Git-bash commands to clone .](./assets/images/github-clone.png)
 
-Go to Git-bash and clone in your local with the next code
+2. Go to Git-bash and page the github's, with the next code
 
-`$ git clone https://github.com/Yazmin30-bot/deploy-code-refactor.git `(this is the github's link)
+`$ git clone https://github.com/Yazmin30-bot/deploy-code-refactor.git `
 
 ![Git-bash commands to clone .](./assets/images/git-bash-clone.png)
 
 
-## Usage
-Provide instructions and examples for use. Include screenshots as needed.
-To add a screenshot, create an `assets/images` folder in your repository and upload your screenshot to it. Then, using the relative filepath, add it to your README using the following syntax:
-    ```md
-    ![alt text](assets/images/screenshot.png)
-    ```
-
-## License
-The last section of a high-quality README file is the license. This lets other developers know what they can and cannot do with your project. If you need help choosing a license, refer to [https://choosealicense.com/](https://choosealicense.com/).
----
-🏆 The previous sections are the bare minimum, and your project will ultimately determine the content of this document. You might also want to consider adding the following sections.
 
 
