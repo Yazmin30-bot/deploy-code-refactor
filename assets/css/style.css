@@ -156,88 +156,37 @@ main {
 /*For the Lead Generation section applies these styles:
 Set the bottom margin  to 32 pixels
 Set the text color*/
-.benefit-lead {
+/*Consolidated the classes benefit-lead, benefit-brand and benefit-cost in one called benefit-bcl*/
+.benefit-bcl {
     margin-bottom: 32px;
     color: #ffffff;
 }
 
-
-/*For the Brand Awareness section applies these styles:
-Set the bottom margin  to 32 pixels
-Set the text color*/
-.benefit-brand {
-    margin-bottom: 32px;
-    color: #ffffff;
-}
-
-
-/*For the Cost Management section applies these styles:
-Set the bottom margin  to 32 pixels
-Set the text color*/
-.benefit-cost {
-    margin-bottom: 32px;
-    color: #ffffff;
-}
 
 
 /*For the title of  Lead Generation section applies these styles:
 Set the bottom margin  to 10 pixels
 Centers the text*/
-.benefit-lead h3 {
+/*Consolidated the classes benefit-lead, benefit-brand and benefit-cost in one called benefit-bcl*/
+.benefit-bcl h3 {
     margin-bottom: 10px;
     text-align: center;
 }
 
-
-/*For the title of  Brand Awareness section applies these styles:
-Set the bottom margin  to 10 pixels
-Centers the text*/
-.benefit-brand h3 {
-    margin-bottom: 10px;
-    text-align: center;
-}
-
-
-/*For the title of  Cost Management section applies these styles:
-Set the bottom margin  to 10 pixels
-Centers the text*/
-.benefit-cost h3 {
-    margin-bottom: 10px;
-    text-align: center;
-}
 
 
 /*For the image of  Lead Generation section applies these styles:
 -It starts on a new line, and takes up the whole width
 -The top and bottom margins are 10px and right and left margins are auto (The browser calculates it)
 -Set the maximum width to 150 pixels:*/
-.benefit-lead img {
+/*Consolidated the classes benefit-lead, benefit-brand and benefit-cost in one called benefit-bcl*/
+.benefit-bcl img {
     display: block;
     margin: 10px auto;
     max-width: 150px;
 }
 
 
-/*For the image of  Brand Awareness section applies these styles:
--It starts on a new line, and takes up the whole width
--The top and bottom margins are 10px and right and left margins are auto (The browser calculates it)
--Set the maximum width to 150 pixels:*/
-.benefit-brand img {
-    display: block;
-    margin: 10px auto;
-    max-width: 150px;
-}
-
-
-/*For the image of  Cost Management section applies these styles:
--It starts on a new line, and takes up the whole width
--The top and bottom margins are 10px and right and left margins are auto (The browser calculates it)
--Set the maximum width to 150 pixels:*/
-.benefit-cost img {
-    display: block;
-    margin: 10px auto;
-    max-width: 150px;
-}
 
 
 /*For the search-engine-optimization section applies these styles:
@@ -246,7 +195,8 @@ Centers the text*/
 -The height is 300px
 -Can take these kind of fonts: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif
 -Set the background-color and color text:*/
-.search-engine-optimization {
+/*Consolidated the classes search-engine-optimization, online-reputation-management and social-media-marketing in one called seo-section*/
+.seo-section {
     margin-bottom: 20px;
     padding: 50px;
     height: 300px;
@@ -256,75 +206,27 @@ Centers the text*/
 }
 
 
-/*For the online-reputation-management section applies these styles:
--Set 20px the botton margin
--The space between its content and its border is 50px
--The height is 300px
--Can take these kind of fonts: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif
--Set the background-color and color text:*/
-.online-reputation-management {
-    margin-bottom: 20px;
-    padding: 50px;
-    height: 300px;
-    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
-    background-color: #0072bb;
-    color: #ffffff;
-}
 
-
-/*For the social-media-marketing section applies these styles:
--Set 20px the botton margin
--The space between its content and its border is 50px
--The height is 300px
--Can take these kind of fonts: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif
--Set the background-color and color text:*/
-.social-media-marketing {
-    margin-bottom: 20px;
-    padding: 50px;
-    height: 300px;
-    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
-    background-color: #0072bb;
-    color: #ffffff;
-}
 
 
 /*For the image of social-media-marketing section Sets the maximum width to 200 pixels:*/
-.search-engine-optimization img {
+/*Consolidated the classes search-engine-optimization, online-reputation-management and social-media-marketing in one called seo-section*/
+.seo-section img {
     max-height: 200px;
 }
 
 
-/*For the image of online-reputation-management section Sets the maximum width to 200 pixels:*/
-.online-reputation-management img {
-    max-height: 200px;
-}
-
-
-/*For the image of social-media-marketing section Sets the maximum width to 200 pixels:*/
-.social-media-marketing img {
-    max-height: 200px;
-}
 
 
 /*For the title of social-media-marketing section Sets the bottom margin to 200 pixels and font size to 36px*/
-.search-engine-optimization h2 {
+/*Consolidated the classes search-engine-optimization, online-reputation-management and social-media-marketing in one called seo-section*/
+.seo-section h2 {
     margin-bottom: 20px;
     font-size: 36px;
 }
 
 
-/*For the title of online-reputation-management section Sets the bottom margin to 200 pixels and font size to 36px*/
-.online-reputation-management h2 {
-    margin-bottom: 20px;
-    font-size: 36px;
-}
 
-
-/*For the title of social-media-marketing section Sets the bottom margin to 200 pixels and font size to 36px*/
-.social-media-marketing h2 {
-    margin-bottom: 20px;
-    font-size: 36px;
-}
 /*Change the class to element removing the point (.) 
 For the footer section applies these styles:
 -The space between its content and its border is 30px
